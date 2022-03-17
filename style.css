@@ -27,26 +27,26 @@ body {
 }
 
 .headline {
-    background: white url('assets/header-bg.png');
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 120px 24px;
-    border-bottom-left-radius: 150px;
+  background: white url('assets/header-bg.png');
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px 24px;
+  border-bottom-left-radius: 150px;
 }
 
 .headline-primary-title {
-    font-weight: 700;
-    color: #172b4d;
-    font-size: 40px;
-    line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .header-primary-details {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .header-btn {
