@@ -50,20 +50,20 @@ body {
 }
 
 .header-btn {
-    color: #7f8cff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    border: none;
-    background: transparent;
-    padding: 0;
-    margin: 6px 0;
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 6px 0;
 }
 
 .social-medials {
-    margin: 6px -6px;
-    display: flex;
-    align-items: center;
+  margin: 6px -6px;
+  display: flex;
+  align-items: center;
 }
 
 .social-medials a { margin: 0 6px; }
