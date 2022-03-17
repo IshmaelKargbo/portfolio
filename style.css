@@ -19,11 +19,11 @@ body {
 }
 
 .logo {
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 700;
-    margin: 12px 0;
-    color: rgba(96, 112, 255, 1);
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 12px 0;
+  color: rgba(96, 112, 255, 1);
 }
 
 .headline {
