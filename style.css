@@ -84,16 +84,18 @@ body {
   color: rgba(172, 183, 195, 1);
 }
 
-.about-section { 
+.about-section {
+  background: white;
+  border-top-right-radius: 100px;
   padding: 114px 24px;
   display: grid;
   grid-template-columns: 100%;
 }
 
 .work {
-  background: #ffffff;
+  background: #fff;
   border-radius: 20px;
-  box-shadow: rgb(72, 72, 72);
+  box-shadow: 0px 20px 5px rgb(72, 72, 72);
   padding: 16px;
   margin: 44px 0;
 }
@@ -150,14 +152,11 @@ body {
   background: transparent;
 }
 
-.about-section {
-  background: white;
-  border-top-right-radius: 100px;
-}
-
 .about-section .social-medials { margin: 13px 0; }
 
-.about-section .title, .about-section .details, .about-section .text-button { margin: 6px 0; }
+.about-section .title, 
+.about-section .details, 
+.about-section .text-button { margin: 6px 0; }
 
 .about-section .text-button {
   background: transparent;
