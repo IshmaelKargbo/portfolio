@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #f7f7f9;
   font-family: Poppins, "Courier New", Courier, monospace;
   font-size: 14px;
   color: #1a2236;
@@ -24,6 +25,7 @@ body {
   font-weight: 700;
   margin: 12px 0;
   color: rgba(96, 112, 255, 1);
+  text-decoration: none;
 }
 
 .headline {
@@ -64,6 +66,7 @@ body {
   margin: 6px -6px;
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
-.social-medials a { margin: 0 6px; }
+.social-medials li a { margin: 0 6px; }
