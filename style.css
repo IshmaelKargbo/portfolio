@@ -95,7 +95,7 @@ body {
 .work {
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0px 20px 5px rgb(72, 72, 72);
+  box-shadow: 0 20px 5px rgb(72, 72, 72);
   padding: 16px;
   margin: 44px 0;
 }
@@ -154,8 +154,8 @@ body {
 
 .about-section .social-medials { margin: 13px 0; }
 
-.about-section .title, 
-.about-section .details, 
+.about-section .title,
+.about-section .details,
 .about-section .text-button { margin: 6px 0; }
 
 .about-section .text-button {
