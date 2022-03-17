@@ -70,3 +70,126 @@ body {
 }
 
 .social-medials li a { margin: 0 6px; }
+
+.work-section {
+  margin: 114px 24px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.dropdown-menu .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  color: rgba(172, 183, 195, 1);
+}
+
+.about-section {
+  background: white;
+  border-top-right-radius: 100px;
+  padding: 114px 24px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.work {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 20px 5px rgb(72, 72, 72);
+  padding: 16px;
+  margin: 44px 0;
+}
+
+.work-image {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.work-title {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.work-details {
+  list-style: none;
+  display: flex;
+  margin: 6px -6px;
+}
+
+.work-details li { margin: 6px; }
+
+.work-des {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.work-langs {
+  list-style: none;
+  display: flex;
+  margin: 6px -6px;
+}
+
+.work-langs li {
+  padding: 4px 12px;
+  margin: 6px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.see-more {
+  font-weight: 500;
+  margin: 6px 0;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px;
+  background: transparent;
+}
+
+.about-section .social-medials { margin: 13px 0; }
+
+.about-section .title,
+.about-section .details,
+.about-section .text-button { margin: 6px 0; }
+
+.about-section .text-button {
+  background: transparent;
+  border: none;
+  color: #7f8cff;
+}
+
+.language-section { margin: 46px 0; }
+
+.dropdown-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 23px;
+  align-items: center;
+}
+
+.lang-text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.border-b { border-bottom: 1px solid #dfe1e6; }
+
+.language { margin-top: 36px; }
+
+.lang {
+  display: flex;
+  padding: 9px 12px;
+  background: #f7f7f9;
+  align-items: center;
+  border-radius: 8px;
+  margin: 12px 2px;
+}
+
+.lang img { margin-right: 16px; }
