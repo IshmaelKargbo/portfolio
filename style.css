@@ -128,13 +128,14 @@ body {
 
 .work-langs {
   list-style: none;
-  display: flex;
+  /* display: flex; */
   margin: 6px -6px;
 }
 
 .work-langs li {
   padding: 4px 12px;
   margin: 6px;
+  float: left;
   background: #ebebff;
   border-radius: 8px;
 }
