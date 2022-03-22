@@ -12,9 +12,13 @@ body {
 
 .nav {
   background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-section {
   display: flex;
-  height: 48px;
-  padding: 14px 24px;
+  padding: 24px;
   justify-content: space-between;
   align-items: center;
 }
@@ -23,9 +27,12 @@ body {
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-  margin: 12px 0;
   color: rgba(96, 112, 255, 1);
   text-decoration: none;
+}
+
+.app {
+  padding-top: 78px;
 }
 
 .headline {
