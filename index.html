@@ -14,18 +14,18 @@
 
 <body>
     <header class="nav">
-        <div>
+        <div class="nav-section">
             <a href="/" class="logo">My Logo</a>
+            <nav>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
+                        fill="#6070FF" />
+                </svg>
+            </nav>
         </div>
-        <nav>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
-                    fill="#6070FF" />
-            </svg>
-        </nav>
     </header>
-    <main>
+    <main class="app">
         <section class="headline">
             <h1 class="headline-primary-title">I’m Ishmael <br />
                 Glad to see you!</h1>
@@ -79,7 +79,7 @@
         </section>
         <section class="work-section">
             <div class="work">
-                <img alt="work1" class="work-image" src="/assets/work1.png" />
+                <img alt="work1" class="work-image" src="./assets/work1.png" />
                 <div>
                     <div>
                         <h2 class="work-title">Tonic</h2>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="work">
-                <img alt="work2" class="work-image" src="/assets/work2.png" />
+                <img alt="work2" class="work-image" src="./assets/work2.png" />
                 <div>
                     <div>
                         <h2 class="work-title">Multi-Post Stories</h2>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="work">
-                <img alt="work3" class="work-image" src="/assets/work3.png" />
+                <img alt="work3" class="work-image" src="./assets/work3.png" />
                 <div>
                     <div>
                         <h2 class="work-title">Tonic</h2>
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="work">
-                <img alt="work4" class="work-image" src="/assets/work4.png" />
+                <img alt="work4" class="work-image" src="./assets/work4.png" />
                 <div>
                     <div>
                         <h2 class="work-title">Multi-Post Stories</h2>
@@ -294,53 +294,89 @@
                 </ul>
                 <button type="button" class="see-more">Get my resume</button>
             </div>
-            <div>
-                <div class="language-section">
-                    <div class="dropdown-menu">
-                        <p class="lang-text">Langguages</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                          </svg>
-                    </div>
-                    <div class="language">
-                        <div class="lang">
-                            <img alt="js" src="/assets/js.png">
-                            <p>JavaScript</p>
+            <div class="dropdowns">
+                <ul>
+                    <li class="list">
+                        <div class="dropdown-menu">
+                            <p class="lang-text">Langguages</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </div>
-                        <div class="lang">
-                            <img alt="html" src="/assets/html.png">
-                            <p>HTML</p>
+                        <ul>
+                            <li>
+                                <div class="lang">
+                                    <img alt="js" src="./assets/js.png">
+                                    <p>JavaScript</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lang">
+                                    <img alt="html" src="./assets/html.png">
+                                    <p>HTML</p>
+                                </div>
+                            <li>
+                                <div class="lang">
+                                    <img alt="css" src="./assets/css.png">
+                                    <p>CSS</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list">
+                        <div class="dropdown-menu border-b">
+                            <p class="lang-text">Frameworks</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </div>
-                        <div class="lang">
-                            <img alt="css" src="/assets/css.png">
-                            <p>CSS</p>
+                    </li>
+                    <li class="list">
+                        <div class="dropdown-menu border-b">
+                            <p class="lang-text">Skills</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </div>
-                    </div>
-                </div>
-                <div class="language-section">
-                    <div class="dropdown-menu border-b">
-                        <p class="lang-text">Frameworks</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon"
-                        viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    </div>
-                </div>
-                <div class="language-section">
-                    <div class="dropdown-menu border-b">
-                        <p class="lang-text">Skills</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon"
-                        viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
+        <footer class="contact-section-bg">
+            <div class="contact-section">
+                <h2 class="title">Contact me</h2>
+                <p class="details">If you have an application you are interested in developing, a feature that you need
+                    built or a
+                    project that needs coding. I’d love to help with it </p>
+                <form action="https://formspree.io/f/mjvjzbal" method="POST" class="form">
+                    <ul>
+                        <li class="form-field">
+                            <input placeholder="Name" class="input" type="text" minlength="1" maxlength="30" name="name"
+                                required>
+                        </li>
+                        <li class="form-field">
+                            <input placeholder="Email" class="input" type="email" name="email" required>
+                        </li>
+                        <li class="form-field">
+                            <textarea placeholder="Write your message here" class="text-area" name="message" required rows="10"
+                                maxlength="500"></textarea>
+                        </li>
+                        <li>
+                            <button class="button" type="submit">Get In Touch</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </footer>
     </main>
 </body>
 
