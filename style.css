@@ -204,22 +204,6 @@ body {
   border-top-left-radius: 150px;
 }
 
-.contact-section .title {
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 12px;
-}
-
-.contact-section .details {
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #EBEBFF;
-  margin-bottom: 47px;
-}
-
 .form .form-field {
   background: #fff;
   border: 1px solid #cfd8dc;
