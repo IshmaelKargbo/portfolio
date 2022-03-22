@@ -4,17 +4,13 @@
 
 > My portfolio
 
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
 - Major languages
 - Frameworks
 - Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
