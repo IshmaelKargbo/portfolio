@@ -346,17 +346,21 @@
             <p class="details">If you have an application you are interested in developing, a feature that you need
                 built or a
                 project that needs coding. I’d love to help with it </p>
-            <form class="form">
-                <div class="form-field">
-                    <input placeholder="Full name" class="input" type="text" required>
-                </div>
-                <div class="form-field">
-                    <input placeholder="Email" class="input" type="email" required>
-                </div>
-                <div class="form-field">
-                    <textarea placeholder="Write your message here" class="text-area" rows="10"></textarea>
-                </div>
-                <button class="button" type="submit">Get In Touch</button>
+            <form  action=" " method="POST" class="form">
+                <ul>
+                    <li class="form-field">
+                        <input placeholder="Full name" class="input" type="text" minlength="1" maxlength="30"required>
+                    </li>
+                    <li class="form-field">
+                        <input placeholder="Email" class="input" type="email" required>
+                    </li>
+                    <li class="form-field">
+                        <textarea placeholder="Write your message here" class="text-area" rows="10" maxlength="500"></textarea>
+                    </li>
+                    <li>
+                        <button class="button" type="submit">Get In Touch</button>
+                    </li>
+                </ul>
             </form>
         </section>
     </main>
