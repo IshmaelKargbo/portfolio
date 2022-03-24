@@ -35,7 +35,6 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 - Run linters to be sure everything set up properly.
 
-
 ## Authors
 
 👤 **Ishmael Kargbo**
