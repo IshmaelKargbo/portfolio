@@ -44,12 +44,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/ishoKargbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ishmael-kargbo-9a986a214)
 
-👤 **Tuğsem Saranlı**
-
-- GitHub: [@tugsem](https://github.com/tugsem)
-- Twitter: [@TugsemSaranli](https://twitter.com/TugsemSaranli)
-- LinkedIn: [Tugsem Saranli](https://linkedin.com/in/tugsem-saranli-5b2a98230/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
