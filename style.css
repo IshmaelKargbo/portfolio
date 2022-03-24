@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.desk-menu{ display: none; }
+.desk-menu { display: none; }
 
 .nav-section {
   display: flex;
@@ -321,7 +321,7 @@ body {
     padding-bottom: 255px;
   }
 
-  .headline-primary-title{
+  .headline-primary-title {
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
