@@ -278,18 +278,29 @@ body {
   border: none;
 }
 
-.form .button:hover {
+button:hover {
   background: #7066f8;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:active {
+  background: #4017cc;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
 }
 
-.form .button:active {
-  background: #4017cc;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+button:disabled {
+  border: 1px solid hsl(216, 14%, 79%);
+  box-sizing: border-box;
+  background: rgb(231, 232, 233) !important;
+  box-shadow: none !important;
   border-radius: 8px;
-  color: #fff;
+  color: #acb4c4;
+  cursor: not-allowed;
 }
 
 .disk-br-about { display: none; }

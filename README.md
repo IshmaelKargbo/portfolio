@@ -2,32 +2,53 @@
 
 # Portfolio
 
-> My portfolio
+> This project is a Microverse exercise on HTML & CSS that demonstrates the knowledge of Semantic HTML, flexbox, background properties, and mobile-first responsiveness, Responsive web design, CSS media query.
 
 ![screenshot](./app_screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Figma
+- Node
+- Linters(Lighthouse, Webhint, Stylelint)
+- VS Code
+
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- You need to have current Node version installed.
+
+### Setup
+-Copy or download the zip file if you want to use my template.
+
+### Install
+-Install npm
+
+### Usage
+- Delete the personal informations and fill them with yours.
+
+### Run tests
+- Run linters to be sure everything set up properly.
+
 
 ## Authors
 
-👤 **Author1**
+👤 **Ishmael Kargbo**
 
 - GitHub: [@githubhandle](https://github.com/ishmaelkargbo)
 - Twitter: [@twitterhandle](https://twitter.com/ishoKargbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ishmael-kargbo-9a986a214)
 
+👤 **Tuğsem Saranlı**
+
+- GitHub: [@tugsem](https://github.com/tugsem)
+- Twitter: [@TugsemSaranli](https://twitter.com/TugsemSaranli)
+- LinkedIn: [Tugsem Saranli](https://linkedin.com/in/tugsem-saranli-5b2a98230/)
 
 ## 🤝 Contributing
 
