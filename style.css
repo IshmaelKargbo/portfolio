@@ -52,6 +52,12 @@ body {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 12px;
+
+  animation-duration: 3s;
+  animation-name: heading;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+
 }
 
 .header-primary-details {
@@ -474,5 +480,18 @@ button:disabled {
 
   .work-image:hover {
     cursor: pointer;
+  }
+}
+
+
+@keyframes heading {
+  from {
+    margin-left: -100%;
+    width: auto;
+  }
+
+  to {
+    margin-left: 0%;
+    width: auto;
   }
 }
