@@ -15,6 +15,10 @@
 - Linters(Lighthouse, Webhint, Stylelint)
 - VS Code
 
+## Live Demo
+
+[Live Demo Link](https://ishmaelkargbo.github.io/portfolio)
+
 
 ## Getting Started
 
