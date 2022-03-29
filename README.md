@@ -28,10 +28,10 @@ To get a local copy up and running follow these simple example steps.
 - You need to have current Node version installed.
 
 ### Setup
--Copy or download the zip file if you want to use my template.
+- Copy or download the zip file if you want to use my template.
 
 ### Install
--Install npm
+- Install npm
 
 ### Usage
 - Delete the personal informations and fill them with yours.
