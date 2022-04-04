@@ -14,6 +14,7 @@
 - Node
 - Linters(Lighthouse, Webhint, Stylelint)
 - VS Code
+- Wave
 
 ## Live Demo
 
@@ -46,6 +47,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/ishmaelkargbo)
 - Twitter: [@twitterhandle](https://twitter.com/ishoKargbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ishmael-kargbo-9a986a214)
+
+👤 **Dinma-Faith**
+
+- GitHub: [@githubhandle](https://github.com/Dinma-Faith)
+- Twitter: [@twitterhandle](https://twitter.com/paul_dinma)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/chidinma-faith)
 
 ## 🤝 Contributing
 
