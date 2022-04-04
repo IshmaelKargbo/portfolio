@@ -14,6 +14,11 @@
 - Node
 - Linters(Lighthouse, Webhint, Stylelint)
 - VS Code
+- Wave
+
+## Live Demo
+
+[Live Demo Link](https://ishmaelkargbo.github.io/portfolio)
 
 
 ## Getting Started
@@ -24,10 +29,10 @@ To get a local copy up and running follow these simple example steps.
 - You need to have current Node version installed.
 
 ### Setup
--Copy or download the zip file if you want to use my template.
+- Copy or download the zip file if you want to use my template.
 
 ### Install
--Install npm
+- Install npm
 
 ### Usage
 - Delete the personal informations and fill them with yours.
@@ -42,6 +47,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/ishmaelkargbo)
 - Twitter: [@twitterhandle](https://twitter.com/ishoKargbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ishmael-kargbo-9a986a214)
+
+👤 **Dinma-Faith**
+
+- GitHub: [@githubhandle](https://github.com/Dinma-Faith)
+- Twitter: [@twitterhandle](https://twitter.com/paul_dinma)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/chidinma-faith)
 
 ## 🤝 Contributing
 

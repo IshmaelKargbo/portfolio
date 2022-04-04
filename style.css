@@ -52,6 +52,10 @@ body {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 12px;
+  animation-duration: 3s;
+  animation-name: heading;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 .header-primary-details {
@@ -278,6 +282,8 @@ body {
   border: none;
 }
 
+button { transition: all 0.5s ease-out; }
+
 button:hover {
   background: #7066f8;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -301,6 +307,11 @@ button:disabled {
   border-radius: 8px;
   color: #acb4c4;
   cursor: not-allowed;
+}
+
+button:focus {
+  outline: none; 
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .disk-br-about { display: none; }
@@ -466,5 +477,21 @@ button:disabled {
 
   .form .text-area {
     resize: none;
+  }
+
+  .work-image:hover {
+    cursor: pointer;
+  }
+}
+
+@keyframes heading {
+  from {
+    margin-left: -100%;
+    width: auto;
+  }
+
+  to {
+    margin-left: 0%;
+    width: auto;
   }
 }
