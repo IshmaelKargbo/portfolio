@@ -48,12 +48,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/ishoKargbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ishmael-kargbo-9a986a214)
 
-👤 **Dinma-Faith**
-
-- GitHub: [@githubhandle](https://github.com/Dinma-Faith)
-- Twitter: [@twitterhandle](https://twitter.com/paul_dinma)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/chidinma-faith)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
