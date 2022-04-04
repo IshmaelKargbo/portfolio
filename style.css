@@ -10,6 +10,10 @@ body {
   color: #1a2236;
 }
 
+menu {
+  z-index: -1;
+}
+
 .app {
   padding-top: 78px;
 }
@@ -317,7 +321,8 @@ button:focus {
 .disk-br-about { display: none; }
 
 .menu-modal {
-  background: #6070fff5;
+  background: #6070ffc7;
+  backdrop-filter: blur(2px);
   z-index: 1;
   top: 0;
   position: fixed;
@@ -331,8 +336,8 @@ button:focus {
   border: none;
   color: white;
   position: absolute;
-  right: 25px;
-  top: 18px;
+  right: 27px;
+  top: 8px;
   font-size: 40px;
 }
 
@@ -344,7 +349,6 @@ button:focus {
 
 .menu-modal > nav > ul > li > a {
   color: white;
-  font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   text-decoration: none;
