@@ -429,11 +429,12 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 8px;
+  margin: 0 5px;
 }
 
 .see-more .text {
   padding-right: 8px;
+  font-size: 14px;
 }
 
 .menu-modal > .close-modal {
@@ -709,13 +710,13 @@ button:focus {
   }
 
   .main-view {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     padding: 24px 0;
   }
 
   .project-view {
-    padding: 34px;
+    padding: 54px;
   }
 
   .main-view .details {
@@ -732,7 +733,7 @@ button:focus {
 
   .main-view .work-image {
     width: 100%;
-    height: 550px;
+    height: 350px;
     margin-bottom: 25px;
   }
 
@@ -744,11 +745,11 @@ button:focus {
 
   .main-view .work-des {
     padding-right: 5px;
-    width: 60%;
+    width: 59%;
   }
 
   .details .col2 {
-    width: 40%;
+    width: 41%;
   }
 
   .main-view .lang-button {
