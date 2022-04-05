@@ -117,7 +117,8 @@ menu {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 1px rgb(72, 72, 72);
-  padding: 16px;
+  padding:  16px;
+  padding-bottom: 20px;
   margin: 44px 0;
 }
 
@@ -153,6 +154,7 @@ menu {
   list-style: none;
   display: flex;
   margin: 6px -6px;
+  flex-wrap: wrap;
 }
 
 .work-langs li {
@@ -169,6 +171,7 @@ menu {
   line-height: 24px;
   border: 1px solid #6070ff;
   color: #6070ff;
+  fill: #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   padding: 12px;
@@ -310,7 +313,9 @@ menu {
   border: none;
 }
 
-button { transition: all 0.5s ease-out; }
+button {
+  transition: all 0.5s ease-out;
+}
 
 button:hover {
   background: #7066f8;
@@ -325,6 +330,7 @@ button:active {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+  fill: #fff;
 }
 
 button:disabled {
@@ -334,6 +340,7 @@ button:disabled {
   box-shadow: none !important;
   border-radius: 8px;
   color: #acb4c4;
+  fill: #acb4c4;
   cursor: not-allowed;
 }
 
@@ -348,20 +355,31 @@ button:focus {
 
 .project-model {
   display: none;
+  background: #c1c7d064;
+  backdrop-filter: blur(2px);
+  align-items: center;
+}
+
+.main-view {
+  width: 100%;
+  padding: 60px 16px;
 }
 
 .project-view {
   background: #fff;
   border: 1px solid #dfe1e6;
-  margin: 60px 16px;
   box-sizing: border-box;
   border-radius: 16px;
   padding: 16px;
 }
 
+.main-view .details {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-model,
 .menu-modal {
-  backdrop-filter: blur(2px);
   z-index: 1;
   top: 0;
   bottom: 0;
@@ -380,13 +398,13 @@ button:focus {
   display: none;
 }
 
-.title > .close-modal {
+.title>.close-modal {
   background: transparent;
   border: none;
   color: #67798e;
 }
 
-.title > .work-title {
+.title>.work-title {
   font-size: 32px;
 }
 
@@ -409,12 +427,16 @@ button:focus {
 .action > button {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0 8px;
 }
 
-.menu-modal > .close-modal {
+.see-more .text {
+  padding-right: 8px;
+}
+
+.menu-modal>.close-modal {
   background: transparent;
   border: none;
   color: white;
@@ -424,25 +446,24 @@ button:focus {
   font-size: 40px;
 }
 
-.menu-modal > nav {
+.menu-modal>nav {
   padding: 86px 98px 86px 28px;
 }
 
-.menu-modal > nav > ul {
+.menu-modal>nav>ul {
   list-style: none;
 }
 
-.menu-modal > nav > ul > li {
+.menu-modal>nav>ul>li {
   margin-bottom: 40px;
 }
 
-.menu-modal > nav > ul > li > a {
+.menu-modal>nav>ul>li>a {
   color: white;
   font-size: 32px;
   line-height: 44px;
   text-decoration: none;
 }
-
 
 @media (min-width: 768px) {
   .work-image {
@@ -461,13 +482,21 @@ button:focus {
     padding: 12px 0;
   }
 
-  .work-discription { padding-left: 24px; }
+  .work-discription {
+    padding-left: 24px;
+  }
 
-  .work-des { padding: 12px 0; }
+  .work-des {
+    padding: 12px 0;
+  }
 
-  .nav-section { padding: 25px 80px; }
+  .nav-section {
+    padding: 25px 80px;
+  }
 
-  .work-section { padding: 80px; }
+  .work-section {
+    padding: 80px;
+  }
 
   .work {
     padding: 24px;
@@ -506,6 +535,7 @@ button:focus {
     background-repeat: no-repeat;
     padding: 302px 260px;
     padding-bottom: 255px;
+    border-bottom-left-radius: 200px;
   }
 
   .headline-primary-title {
@@ -568,6 +598,7 @@ button:focus {
   .about-section {
     display: flex;
     padding: 142px;
+    border-top-right-radius: 200px;
   }
 
   .about {
@@ -643,6 +674,7 @@ button:focus {
     background-repeat: no-repeat;
     padding-top: 142px;
     padding-bottom: 142px;
+    border-top-left-radius: 200px;
   }
 
   .contact {
@@ -670,6 +702,57 @@ button:focus {
 
   .work-image:hover {
     cursor: pointer;
+  }
+
+  .main-view .title {
+    padding: 0;
+  }
+
+  .main-view {
+    width: 60%;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+
+  .project-view {
+    padding: 34px;
+  }
+
+  .main-view .details {
+    flex-direction: row;
+  }
+
+  .main-view .work-title {
+    margin-bottom: 0;
+  }
+
+  .main-view .work-langs {
+    margin-bottom: 2px;
+  }
+
+  .main-view .work-image {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 25px;
+  }
+
+  .action { width: 100% }
+  
+  .action .see-more {
+    margin: 0 5px;
+  }
+
+  .main-view .work-des {
+    padding-right: 5px;
+    width: 60%;
+  }
+
+  .details .col2 {
+    width: 40%;
+  }
+
+  .main-view .lang-button {
+    width: 50%;
   }
 }
 
