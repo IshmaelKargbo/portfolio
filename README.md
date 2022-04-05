@@ -25,20 +25,10 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-- You need to have current Node version installed.
-
-### Setup
-- Copy or download the zip file if you want to use my template.
-
-### Install
-- Install npm
-
-### Usage
-- Delete the personal informations and fill them with yours.
-
-### Run tests
-- Run linters to be sure everything set up properly.
+- Clone this repository to your local machine
+- git clone https://github.com/SoniaKarungi/Portfolio.git
+- cd Portfolio
+- Open `index.html` file in a browser of your choice
 
 ## Authors
 
