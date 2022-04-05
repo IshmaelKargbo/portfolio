@@ -117,7 +117,7 @@ menu {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 1px rgb(72, 72, 72);
-  padding:  16px;
+  padding: 16px;
   padding-bottom: 20px;
   margin: 44px 0;
 }
@@ -398,17 +398,17 @@ button:focus {
   display: none;
 }
 
-.title>.close-modal {
+.title > .close-modal {
   background: transparent;
   border: none;
   color: #67798e;
 }
 
-.title>.work-title {
+.title > .work-title {
   font-size: 32px;
 }
 
-.title {
+.project-view .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -436,7 +436,7 @@ button:focus {
   padding-right: 8px;
 }
 
-.menu-modal>.close-modal {
+.menu-modal > .close-modal {
   background: transparent;
   border: none;
   color: white;
@@ -446,19 +446,19 @@ button:focus {
   font-size: 40px;
 }
 
-.menu-modal>nav {
+.menu-modal > nav {
   padding: 86px 98px 86px 28px;
 }
 
-.menu-modal>nav>ul {
+.menu-modal > nav > ul {
   list-style: none;
 }
 
-.menu-modal>nav>ul>li {
+.menu-modal > nav > ul > li {
   margin-bottom: 40px;
 }
 
-.menu-modal>nav>ul>li>a {
+.menu-modal > nav > ul > li > a {
   color: white;
   font-size: 32px;
   line-height: 44px;
@@ -736,8 +736,8 @@ button:focus {
     margin-bottom: 25px;
   }
 
-  .action { width: 100% }
-  
+  .action { width: 100%; }
+
   .action .see-more {
     margin: 0 5px;
   }
