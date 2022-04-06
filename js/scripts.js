@@ -1,3 +1,4 @@
+// Nav Menu
 const mobileNavButton = document.getElementById('mobi-menu');
 const mobileNav = document.getElementById('menu-modal');
 const closeModalButton = document.getElementById('close-modal');
