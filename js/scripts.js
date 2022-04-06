@@ -19,3 +19,20 @@ navList.onclick = () => {
   mobileNav.style.display = 'none';
   body.style.overflow = 'auto';
 };
+
+/**
+ * Contact Form Validation
+ */
+const validateMsg = document.getElementById('validation-msg');
+
+const submitForm = () => {
+    const email = document.getElementById('email').value;
+
+    if (email !== email.toLowerCase()) {
+        validateMsg.innerText = 'Kindly input email in lowercase';
+        return false;
+    }
+    
+    validateMsg.innerText = '';
+    return true;
+}
