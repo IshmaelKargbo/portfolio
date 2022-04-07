@@ -24,7 +24,7 @@ navList.onclick = () => {
  * Contact Form Validation
  */
 
-const form = document.getElementById('form');
+const form = document.getElementById('form-1');
 const errorMsg = document.getElementById('error');
 
 form.onsubmit = (e) => {
