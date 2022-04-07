@@ -4,7 +4,8 @@
 
 > This project is a Microverse exercise on HTML & CSS that demonstrates the knowledge of Semantic HTML, flexbox, background properties, and mobile-first responsiveness, Responsive web design, CSS media query.
 
-![screenshot](./app_screenshot.png)
+![Screenshot Desktop](./assets/images/app_screenshot.png)
+![Screenshot Mobile](./assets/images/app_screenshot_mob.png)
 
 ## Built With
 

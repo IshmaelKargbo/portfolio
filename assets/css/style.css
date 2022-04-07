@@ -44,7 +44,7 @@ menu {
 }
 
 .headline {
-  background: white url("./assets/header-bg.png");
+  background: white url("../images/mobile/header-bg.png");
   background-size: 100% 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -256,7 +256,7 @@ menu {
 }
 
 .contact-section {
-  background: #6070ff url("./assets/contact.png");
+  background: #6070ff url("../images/mobile/contact.png");
   padding: 103px 24px 45px 24px;
   border-top-left-radius: 150px;
 }
@@ -539,7 +539,7 @@ button:focus {
   }
 
   .headline {
-    background: white url("./assets/desktop/header-bg.png");
+    background: white url("../images/desktop/header-bg.png");
     background-size: 100% 90%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -678,7 +678,7 @@ button:focus {
   }
 
   .contact-section {
-    background: #6070ff url("./assets/desktop/contact-bg.png");
+    background: #6070ff url("../images/desktop/contact-bg.png");
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;

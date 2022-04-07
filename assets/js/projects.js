@@ -4,7 +4,7 @@ const projects = [
     name: 'Tonic',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './assets/work1.png',
+    featuredImage: './assets/images/work1.png',
     technologies: ['html', 'css', 'javascript'],
     stacks: ['CANOPY', 'Back End Dev', '2022'],
     live: 'https://ishmaelkargbo.github.io/portfolio/',
@@ -15,7 +15,7 @@ const projects = [
     name: 'Multi-Post Stores',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './assets/work2.png',
+    featuredImage: './assets/images/work2.png',
     technologies: ['html', 'css', 'javascript'],
     stacks: ['CANOPY', 'Back End Dev', '2022'],
     live: 'https://ishmaelkargbo.github.io/portfolio/',
@@ -26,7 +26,7 @@ const projects = [
     name: 'Facebook 360',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './assets/work3.png',
+    featuredImage: './assets/images/work3.png',
     technologies: ['html', 'css', 'javascript'],
     stacks: ['CANOPY', 'Back End Dev', '2022'],
     live: 'https://ishmaelkargbo.github.io/portfolio/',
@@ -37,7 +37,7 @@ const projects = [
     name: 'Uber Navigator',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './assets/work4.png',
+    featuredImage: './assets/images/work4.png',
     technologies: ['html', 'css', 'javascript'],
     stacks: ['CANOPY', 'Back End Dev', '2022'],
     live: 'https://ishmaelkargbo.github.io/portfolio/',
