@@ -19,3 +19,23 @@ navList.onclick = () => {
   mobileNav.style.display = 'none';
   body.style.overflow = 'auto';
 };
+
+/**
+ * Contact Form Validation
+ */
+
+const form = document.getElementById('form');
+const errorMsg = document.getElementById('error');
+
+form.onsubmit = (e) => {
+  const email = document.getElementById('email').value;
+
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    errorMsg.style.display = 'block';
+    return false;
+  }
+
+  errorMsg.style.display = 'none';
+  return true;
+};
