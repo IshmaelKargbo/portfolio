@@ -27,7 +27,7 @@
 To get a local copy up and running follow these simple example steps.
 
 - Clone this repository to your local machine
-- git clone https://github.com/SoniaKarungi/Portfolio.git
+- git clone https://github.com/ishmaelkargbo/Portfolio.git
 - cd Portfolio
 - Open `index.html` file in a browser of your choice
 
